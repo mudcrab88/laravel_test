@@ -8,7 +8,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link rel="stylesheet" href="{{ asset("css/bootstrap.min.css") }}">
+        <link rel="stylesheet" href="{{ asset("css/styles.css") }}">
+        <link href="{{ URL::asset('css/styles.css') }}" rel="stylesheet">
         <!-- Styles -->
         <style>
             html, body {
